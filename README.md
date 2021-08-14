@@ -5,10 +5,11 @@
 ######## Recomendações
 
 ## API do Imgur não disponibiliza requisições vindas de localhost, aqui usamos o ngrok para obter o acesso via maquina local:
-![ngrok](https://user-images.githubusercontent.com/53841377/128655333-087d5548-bac8-4d50-b822-33a69f54c062.png)
+![ngrok](https://user-images.githubusercontent.com/53841377/129434194-ef18c4b9-8ee5-46b0-b8c3-bdbbc6b74a70.png)
 
 ## yarn start
-![YARN ST](https://user-images.githubusercontent.com/53841377/128655527-9c601efe-8e7d-4fff-aed2-72264e9ce7f9.png)
+![YARN ST](https://user-images.githubusercontent.com/53841377/129434236-c57211f4-983a-4335-b26a-be7a5d879c6f.png)
+
 
 ## App
 
