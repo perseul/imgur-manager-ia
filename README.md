@@ -1,6 +1,4 @@
-# Perseul Yerevan Dias Meira
-
-## Aplicação desenvolvida para teste na empresa Linx.
+## Aplicação para gerenciar álbuns de imagens utilizando a api do imgur.
 
 ######## Recomendações
 
