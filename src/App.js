@@ -17,7 +17,7 @@ const App = () => {
 	 const getImagens =  async (albumID = idAlbumAtual) => {
 	 	const response = await api.get(`https://api.imgur.com/3/album/${albumID}/images`, {
 	 		headers: { 
-	 			'Authorization': ' Client-ID 61d72d7bd9d199f'
+	 			'Authorization': ' Client-ID 1b0b19d5179a55f'
 	 		}
 	 	});
 		if(response.status === 200) {
@@ -33,7 +33,7 @@ const App = () => {
 
 		const response = await api.get('/account/me/albums', {
 			headers: { 
-				'Authorization': ' Bearer 1cd987e91f5b331704ac5639f3083c132dfaac8c'
+				'Authorization': ' Bearer 86512a6296f5817d6c4484dd4da1902ddc98fc70'
 			}
 		})
 
@@ -52,7 +52,7 @@ const App = () => {
 		}, 
 		{ 
 		headers: {
-				'Authorization': ' Bearer 1cd987e91f5b331704ac5639f3083c132dfaac8c'
+				'Authorization': ' Bearer 86512a6296f5817d6c4484dd4da1902ddc98fc70'
 			}
 		})
 		if(response.status === 200) {
@@ -65,7 +65,7 @@ const App = () => {
 	const delDadosApi = async (apagaArquivo) => {
 		const response = await api.delete(`/album/${apagaArquivo}`, {
 			headers: { 
-				'Authorization': ' Client-ID 61d72d7bd9d199f'
+				'Authorization': ' Client-ID 1b0b19d5179a55f'
 			}
 		})
 		if(response.status === 200) {
@@ -78,7 +78,7 @@ const App = () => {
 	const deImagem = async (idImagem) => {
 		const response = await api.delete(`/image/${idImagem}`, {
 			headers: { 
-				'Authorization': 'Bearer 1cd987e91f5b331704ac5639f3083c132dfaac8c'
+				'Authorization': 'Bearer 86512a6296f5817d6c4484dd4da1902ddc98fc70'
 			}
 		});
 		if(response.status === 200) {
