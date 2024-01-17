@@ -33,6 +33,10 @@ _em seguida acesse o link gerado pelo ngrok que publicou a sua aplicação em um
 
 ![ngrok url](https://github.com/perseul/imgur-manager-ia/assets/53841377/5f4b4373-fbdd-4c3b-bbbc-680c58971844)
 
+### Aplicação
+![app](https://github.com/perseul/imgur-manager-ia/assets/53841377/f7f166c4-c8d2-404d-b4a8-e89a6dedddb3)
+
+
 ## Links
 * [Download Node.js](https://nodejs.org/en)
 * [Download ngrok](https://ngrok.com/download)
